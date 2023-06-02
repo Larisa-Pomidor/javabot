@@ -1,5 +1,7 @@
 package com.spl.javabot.service;
 
+import java.util.List;
+
 public interface SendBotMessageService {
 
     /**
@@ -9,4 +11,6 @@ public interface SendBotMessageService {
      * @param message provided message to be sent.
      */
     void sendMessage(String chatId, String message);
+
+    void sendMessage(String chatId, List<String> message);
 }
