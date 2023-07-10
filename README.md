@@ -25,6 +25,20 @@ Based on the MVP Scope, the following features can be defined:
 - Spring Data starter
 - Unirest - lib for working with REST calls
 
+## Local development
+For local development and testing, use docker-compose-test.yml. Run command:
+
+docker-compose -f docker-compose-test.yml up
+Next step, is to run SpringBoot app with configured Edit Configuration in which two env vars are provided:
+
+bot.token=${BOT_TOKEN};bot.username=${BOT_USERNAME}
+
+And add VM Options:
+
+-Dspring.profiles.active=test 
+
+With these configurations - run SpringBoot main method.
+
 ## Screenshots
 ![java-bot-screenshot-1](https://raw.githubusercontent.com/Larisa-Pomidor/javabot/master/java-bot-1.jpg)
 ![java-bot-screenshot-2](https://raw.githubusercontent.com/Larisa-Pomidor/javabot/master/java-bot-2.jpg)
