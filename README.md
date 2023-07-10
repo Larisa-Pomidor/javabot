@@ -24,3 +24,8 @@ Based on the MVP Scope, the following features can be defined:
 - Telegram-bot SpringBoot starter
 - Spring Data starter
 - Unirest - lib for working with REST calls
+
+## Screenshots
+![java-bot-screenshot-1](https://raw.githubusercontent.com/Larisa-Pomidor/javabot/master/java-bot-1.jpg)
+![java-bot-screenshot-2](https://raw.githubusercontent.com/Larisa-Pomidor/javabot/master/java-bot-2.jpg)
+![java-bot-screenshot-3](https://raw.githubusercontent.com/Larisa-Pomidor/javabot/master/java-bot-3.jpg)
