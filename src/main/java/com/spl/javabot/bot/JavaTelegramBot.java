@@ -61,4 +61,6 @@ public class JavaTelegramBot extends TelegramLongPollingBot {
         return token;
 
     }
+
+    // test
 }
