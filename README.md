@@ -1,5 +1,5 @@
 ## Idea:
-The primary concept revolves around demonstrating the process of creating a functional application that can be utilized by others. A series of posts are provided, detailing the step-by-step instructions for its development.
+The primary concept revolves around demonstrating the process of creating a functional application that can be utilized by others.
 
 ## MVP Scope:
 The minimum viable product (MVP) aims to allow users to subscribe to specific post groups and receive notifications via a Telegram bot whenever new posts related to their subscribed groups are published.
